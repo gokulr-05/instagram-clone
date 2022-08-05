@@ -61,6 +61,46 @@
 /* menu icons  */
 
 .header-menu-area {
+  height: 100%;
+}
+
+.header-menu-container-row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-end;
+}
+
+.header-menu-sec {
+  height: 100%;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-menu-icons {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* header profile image  */
+
+.header-profile-img-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 50% !important;
+  overflow: hidden;
+}
+
+.header-profile-img {
+  height: 100% !important;
+  width: 100%;
+  margin: 0;
 }
 
 /* *********************media queries*********************  */
