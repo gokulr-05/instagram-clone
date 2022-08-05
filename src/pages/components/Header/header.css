@@ -84,13 +84,13 @@
 /* Small	sm	≥576px */
 @media (min-width: 576px) and (max-width: 767px) {
   .header-sec {
-    width: 100%;
+    width: 95%;
   }
 }
 
 /* X-Small	None	<576px */
 @media (min-width: 0px) and (max-width: 575px) {
   .header-sec {
-    width: 100%;
+    width: 95%;
   }
 }
