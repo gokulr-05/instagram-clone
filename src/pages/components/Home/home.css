@@ -12,5 +12,43 @@ body {
 }
 
 .home-area {
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  height: 100%;
+  width: 100%;
+}
+
+.home-row-1 {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.home-row-2 {
+  width: 80%;
+  margin: 0px auto;
+}
+
+/* *********************media queries*********************  */
+
+/* Extra extra large	xxl	≥1400px */
+@media (min-width: 1400px) {
+}
+
+/* Extra large	xl	≥1200px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* Large	lg	≥992px */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Medium	md	≥768px */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Small	sm	≥576px */
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+/* X-Small	None	<576px */
+@media (min-width: 0px) and (max-width: 575px) {
 }

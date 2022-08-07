@@ -1,0 +1,38 @@
+.story-container {
+  height: 100% !important;
+}
+
+.story-bucket {
+  /* height: 100%; */
+  /* width: 100%; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+
+.story-img-container {
+  /* height: 100%; */
+  /* width: 100%; */
+  border-radius: 50%;
+  border: 2px solid red;
+  padding: 3px;
+  height: 65px;
+}
+
+.story-img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.story-name-container {
+  flex-shrink: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.story-name {
+  padding: 0;
+  margin: 0;
+}
