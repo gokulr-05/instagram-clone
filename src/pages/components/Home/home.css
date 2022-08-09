@@ -47,8 +47,14 @@ body {
 
 /* Small	sm	≥576px */
 @media (min-width: 576px) and (max-width: 767px) {
+  .home-row-2 {
+    width: 100%;
+  }
 }
 
 /* X-Small	None	<576px */
 @media (min-width: 0px) and (max-width: 575px) {
+  .home-row-2 {
+    width: 100%;
+  }
 }

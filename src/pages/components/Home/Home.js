@@ -12,12 +12,14 @@ const Home = () => {
         <div className="home-row-1 ">
           {/* home row 2 */}
           <div className="home-row-2">
-            {/* home column 1 */}
-            <div className="home-column-1 col-md-8 col-12">
-              <Story />
+            <div className="row w-100 h-100 m-0">
+              {/* home column 1 */}
+              <div className="home-column-1 col-md-8 col-12">
+                <Story />
+              </div>
+              {/* home column 2  */}
+              <div className="home-column-2 col-0 col-md-4 d-none d-md-block"></div>
             </div>
-            {/* home column 2  */}
-            <div className="home-column-2 col-0 col-md-4 d-none d-md-block"></div>
           </div>
         </div>
       </div>
