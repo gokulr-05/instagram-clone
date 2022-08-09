@@ -1,5 +1,10 @@
 .story-container {
   height: 100% !important;
+  flex-shrink: 0 !important;
+  flex-grow: 0 !important;
+}
+
+.story-slide-row {
 }
 
 .story-bucket {

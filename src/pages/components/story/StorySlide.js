@@ -9,11 +9,11 @@ const StorySlide = ({ picArr, ind }) => {
       }`}
     >
       <div className="d-flex justify-content-center w-100 h-100">
-        <div className="row1 d-flex align-items-center justify-content-around h-100 w-100">
+        <div className="row story-slide-row d-flex align-items-center justify-content-around h-100 w-100">
           {picArr.map((val, ind, arr) => {
             return (
               <div
-                className={`col1-2   story-container ${
+                className={`col-3 col-sm-2  story-container ${
                   ind === arr.length - 1 ? "d-lg-block d-none" : ""
                 } ${ind === arr.length - 2 ? "d-sm-block d-none" : ""} `}
               >
