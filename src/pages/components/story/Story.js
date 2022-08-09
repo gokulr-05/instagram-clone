@@ -55,34 +55,32 @@ const Story = () => {
   ];
   return (
     <div className="story-area">
-      <div className="story-sec">
+      <div className="story-sec ">
         <div
           id="carouselExampleControls"
-          class="carousel slide h-100"
+          class="carousel slide h-100 carousel-container-1 "
           data-bs-interval="false"
         >
-          <div class="carousel-inner h-100">
+          <div class="carousel-inner  h-100">
             {pics1.map((val, ind, arr) => {
               return <StorySlide picArr={val} ind={ind} />;
             })}
           </div>
           <button
-            class="carousel-control-prev"
+            class="carousel-control-prev1 story-prev-btn"
             type="button"
             data-bs-target="#carouselExampleControls"
             data-bs-slide="prev"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <i class="fa-solid fa-circle-chevron-left fs-5 "></i>
           </button>
           <button
-            class="carousel-control-next"
+            class="carousel-control-next1 story-next-btn"
             type="button"
             data-bs-target="#carouselExampleControls"
             data-bs-slide="next"
           >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <i class="fa-solid fa-circle-chevron-right fs-5 "></i>
           </button>
         </div>
       </div>
