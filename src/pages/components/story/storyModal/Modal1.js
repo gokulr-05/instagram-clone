@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { useSelector } from "react-redux";
+import "./modal1.css";
 
 function Modal1({ handleShow, handleClose, show }) {
   let data = useSelector((state) => {
@@ -11,9 +12,11 @@ function Modal1({ handleShow, handleClose, show }) {
 
   return (
     <div>
-      <Modal size="lg" show={show} onHide={handleClose}>
+      <Modal size="lg" show={show} onHide={handleClose} centered>
         <Modal.Body>
-          <img src={data.pic} className="w-100 h-100" alt="" />
+          <div className="my-modal-body">
+            <img src={data.pic} className="w-100 h-100" alt="" />
+          </div>
         </Modal.Body>
       </Modal>
     </div>
