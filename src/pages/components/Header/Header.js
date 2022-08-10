@@ -21,7 +21,7 @@ const Header = () => {
           <div className="header-searchbar-area d-none d-md-block  col-md-3">
             <div className="header-search-bar row">
               <div className="m-0 p-0  col-1">
-                <i class="fa-solid fa-magnifying-glass text-muted header-search-icon"></i>
+                <i className="fa-solid fa-magnifying-glass text-muted header-search-icon"></i>
               </div>
 
               <div className="m-0 col-9">
@@ -73,19 +73,19 @@ const Header = () => {
                   <div className="header-menu-icons-container  col-10 ">
                     <div className="row w-100 m-0 d-flex justify-content-between">
                       <div className="header-menu-icons col-2 col-lg-2">
-                        <i class="fa-solid fa-house fs-4 m-0"></i>
+                        <i className="fa-solid fa-house fs-4 m-0"></i>
                       </div>
                       <div className="header-menu-icons col-2 col-lg-2">
-                        <i class="fa-brands fa-facebook-messenger fs-4"></i>
+                        <i className="fa-brands fa-facebook-messenger fs-4"></i>
                       </div>
                       <div className="header-menu-icons col-2 col-lg-2">
-                        <i class="fa-solid fa-square-plus fs-4"></i>
+                        <i className="fa-solid fa-square-plus fs-4"></i>
                       </div>
                       <div className="header-menu-icons col-2 col-lg-2">
-                        <i class="fa-solid fa-compass fs-4"></i>
+                        <i className="fa-solid fa-compass fs-4"></i>
                       </div>
                       <div className="header-menu-icons col-2 col-lg-2">
-                        <i class="fa-solid fa-heart fs-4"></i>
+                        <i className="fa-solid fa-heart fs-4"></i>
                       </div>
                     </div>
                   </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./story.css";
 import StorySlide from "./StorySlide";
+import { nanoid } from "nanoid";
 
 import p1 from "../../../assets/pic4.jpeg";
 import p2 from "../../../assets/pic13.jpeg";
@@ -58,29 +59,29 @@ const Story = () => {
       <div className="story-sec ">
         <div
           id="carouselExampleControls"
-          class="carousel slide h-100 carousel-container-1 "
+          className="carousel slide h-100 carousel-container-1 "
           data-bs-interval="false"
         >
-          <div class="carousel-inner  h-100">
+          <div className="carousel-inner  h-100">
             {pics1.map((val, ind, arr) => {
-              return <StorySlide picArr={val} ind={ind} />;
+              return <StorySlide key={nanoid()} picArr={val} ind={ind} />;
             })}
           </div>
           <button
-            class="carousel-control-prev1 story-prev-btn"
+            className="carousel-control-prev1 story-prev-btn"
             type="button"
             data-bs-target="#carouselExampleControls"
             data-bs-slide="prev"
           >
-            <i class="fa-solid fa-circle-chevron-left fs-5 "></i>
+            <i className="fa-solid fa-circle-chevron-left fs-5 "></i>
           </button>
           <button
-            class="carousel-control-next1 story-next-btn"
+            className="carousel-control-next1 story-next-btn"
             type="button"
             data-bs-target="#carouselExampleControls"
             data-bs-slide="next"
           >
-            <i class="fa-solid fa-circle-chevron-right fs-5 "></i>
+            <i className="fa-solid fa-circle-chevron-right fs-5 "></i>
           </button>
         </div>
       </div>
