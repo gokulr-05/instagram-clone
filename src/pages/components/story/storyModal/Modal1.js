@@ -8,7 +8,7 @@ function Modal1({ handleShow, handleClose, show }) {
   let data = useSelector((state) => {
     return state.modalStoryReducer.storyModalData;
   });
-  console.log(data);
+  // console.log(data);
 
   return (
     <div>

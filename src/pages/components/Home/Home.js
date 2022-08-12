@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import Header from "../Header/Header";
 import Story from "../story/Story";
+import Posts from "../posts/Posts";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
               {/* home column 1 */}
               <div className="home-column-1 col-md-8 col-12">
                 <Story />
+                <Posts />
               </div>
               {/* home column 2  */}
               <div className="home-column-2 col-0 col-md-4 d-none d-md-block"></div>
