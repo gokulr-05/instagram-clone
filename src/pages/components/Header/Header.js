@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import logo from "../../../assets/img.png";
+import { Link } from "react-router-dom";
 
 import pic1 from "../../../assets/pic1.jpg";
 // import pic2 from "../../../assets/pic2.jpg";
@@ -92,7 +93,13 @@ const Header = () => {
                   <div className="header-profile-container-1 p-0 col-2 h-100">
                     <div className=" header-profile-container-2 m-0 p-0 w-100 h-100 row">
                       <div className="header-profile-img-container p-0 col-12 h-100">
-                        <img src={pic1} className="header-profile-img" alt="" />
+                        <Link to="profile">
+                          <img
+                            src={pic1}
+                            className="header-profile-img"
+                            alt=""
+                          />
+                        </Link>
                       </div>
                     </div>
                   </div>

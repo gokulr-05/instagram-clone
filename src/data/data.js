@@ -1,4 +1,6 @@
 import p1 from "../assets/1.jpg";
+import nanoid from "nanoid";
+import pic1 from "../assets/pic1.jpg";
 
 let data = {
   posts: [
@@ -15,6 +17,14 @@ let data = {
       time: 5,
     },
   ],
+  profile: {
+    userName: "mr_perfect",
+    profilePic: pic1,
+    name: "Gokul",
+    posts: 0,
+    followers: 8,
+    following: 10,
+  },
 };
 
 export default data;
