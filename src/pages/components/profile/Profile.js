@@ -13,7 +13,7 @@ const Profile = () => {
   return (
     <div className="profile-area">
       {/* profile header  */}
-      <div className="profile-header-area">
+      <div className="profile-header-area sticky-top">
         <div className="profile-header-sec">
           <div className="profile-header">
             <div className="column-1">
@@ -46,30 +46,30 @@ const Profile = () => {
             <div className="col-md-2 col-2 profile-data-container">
               <div className="profile-data">
                 <div className="count text-center">
-                  <strong>0</strong>
+                  <strong>{profileData.posts}</strong>
                 </div>
                 <div className="topic">
-                  <strong>Posts</strong>
+                  <strong className="text-capitalize">Posts</strong>
                 </div>
               </div>
             </div>
             <div className="col-md-2 col-2 profile-data-container">
               <div className="profile-data">
                 <div className="count text-center">
-                  <strong>0</strong>
+                  <strong>{profileData.followers}</strong>
                 </div>
                 <div className="topic">
-                  <strong>Posts</strong>
+                  <strong className="text-capitalize">followers</strong>
                 </div>
               </div>
             </div>
             <div className="col-md-2 col-2 profile-data-container">
               <div className="profile-data">
                 <div className="count text-center">
-                  <strong>0</strong>
+                  <strong>{profileData.following}</strong>
                 </div>
                 <div className="topic">
-                  <strong>Posts</strong>
+                  <strong className="text-capitalize">following</strong>
                 </div>
               </div>
             </div>
