@@ -33,7 +33,7 @@ const Profile = () => {
       <div className="profile-row-1">
         <div className="sec">
           <div className="main-content row">
-            <div className="col-md-2 col-6 profile-row-1-col-1">
+            <div className="col-md-2 col-4 profile-row-1-col-1">
               <div className="profile-pic-container">
                 <img src={pic1} className="profile-image" alt="" />
               </div>
@@ -53,7 +53,7 @@ const Profile = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-2 col-2 profile-data-container">
+            <div className="col-md-2 col-3 profile-data-container">
               <div className="profile-data">
                 <div className="count text-center">
                   <strong>{profileData.followers}</strong>
@@ -63,7 +63,7 @@ const Profile = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-2 col-2 profile-data-container">
+            <div className="col-md-2 col-3 profile-data-container">
               <div className="profile-data">
                 <div className="count text-center">
                   <strong>{profileData.following}</strong>
